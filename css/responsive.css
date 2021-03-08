@@ -1,0 +1,529 @@
+        * {
+            margin: 0;
+            padding: 0;
+            font-family: 'Poppins', sans-serif;
+        }
+        
+        nav {
+            width: 20%;
+            background-color: rgb(9, 49, 82);
+            position: fixed;
+            left: 0;
+            top: 0;
+            height: 100vh;
+            text-align: center;
+            padding-top: 30px;
+        }
+        
+        .img {
+            width: 150px;
+            height: 150px;
+            border: 5px solid gray;
+            border-radius: 50%;
+        }
+        
+        .navbar {
+            padding-left: 30px;
+            text-align: left;
+        }
+        
+        .navbar ul li {
+            list-style: none;
+            padding-top: 25px;
+            font-size: 20px;
+        }
+        
+        .navbar ul li a {
+            text-decoration: none;
+            color: white;
+        }
+        
+        .navbar ul li a:hover {
+            text-decoration: underline;
+            color: lightseagreen;
+        }
+        
+        .navbar ul li a i {
+            padding-right: 10px;
+        }
+        
+        .social {
+            position: absolute;
+            bottom: 40px;
+        }
+        
+        .social ul li {
+            display: inline-block;
+            padding-left: 20px;
+            font-size: 20px;
+        }
+        
+        .social ul li a {
+            color: white;
+        }
+        
+        .social ul li a:hover {
+            color: lightseagreen;
+        }
+        
+        .btn_close {
+            height: 25px;
+            width: 25px;
+            background-color: white;
+            color: rgb(9, 49, 82);
+            border: none;
+            font-size: 20px;
+            font-weight: bold;
+            position: absolute;
+            left: 225px;
+            top: 10px;
+        }
+        
+        .content {
+            width: 80%;
+            float: right;
+        }
+        
+        .banner {
+            width: 100%;
+            height: 100vh;
+            background-image: url(../img/bg.gif);
+            background-repeat: no-repeat;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-size: cover;
+        }
+        
+        .name h1 {
+            font-size: 62px;
+            color: rgb(9, 49, 82);
+        }
+        
+        .post {
+            background-color: rgb(9, 49, 82);
+            color: white;
+            width: 405px;
+            text-align: center;
+            padding: 2px 20px;
+            margin: auto;
+            font-size: 36px;
+        }
+        
+        .container {
+            width: 80%;
+            margin: auto;
+        }
+        
+        .h1 {
+            text-align: center;
+            padding-top: 50px;
+            font-size: 40px;
+            color: rgb(9, 49, 82);
+        }
+        
+        .line {
+            width: 300px;
+            height: 2px;
+            background-color: gray;
+            margin: auto;
+        }
+        
+        .info {
+            width: 80%;
+            margin: auto;
+        }
+        
+        .about {
+            float: left;
+            width: 50%;
+            color: rgb(9, 49, 82);
+        }
+        
+        .about p {
+            text-align: justify;
+            font-size: 18px;
+            color: gray;
+            padding-top: 20px;
+        }
+        
+        .details {
+            float: left;
+            width: 50%;
+            padding-left: 25%;
+            color: rgb(9, 49, 82);
+            box-sizing: border-box;
+        }
+        
+        .details h2,
+        p {
+            text-align: left;
+        }
+        
+        .details h4 {
+            text-align: left;
+            padding-top: 10px;
+        }
+        
+        .details p {
+            color: gray;
+        }
+        
+        .btn {
+            padding: 10px;
+            width: 125px;
+            height: 45px;
+            border: 3px solid white;
+            border-radius: 14px;
+            font-weight: 700;
+            border: none;
+            background-color: rgb(9, 49, 82);
+            color: white;
+        }
+        
+        .btn a {
+            color: white;
+            text-decoration: none;
+        }
+        
+        .btn:hover {
+            background-color: white;
+            border: 3px solid rgb(9, 49, 82);
+        }
+        
+        .btn a:hover {
+            color: rgb(9, 49, 82);
+        }
+        
+        #education {
+            background-color: rgb(250, 244, 244);
+        }
+        
+        .institute {
+            margin: auto;
+            width: 80%;
+            margin-top: 35px;
+        }
+        
+        .board {
+            height: 216px;
+        }
+        
+        .kkv {
+            float: left;
+            height: 145px;
+            width: 145px;
+            border-radius: 50%;
+        }
+        
+        .school {
+            text-align: center;
+            color: white;
+            font-size: 20px;
+            font-weight: 500;
+        }
+        
+        .a {
+            margin: auto;
+            text-align: center;
+            padding-top: 5px;
+            width: 100%;
+        }
+        
+        .a a {
+            color: white;
+            text-decoration: none;
+        }
+        
+        .fnt {
+            text-align: center;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            color: white;
+        }
+        
+        .info1 {
+            margin-left: 260px;
+            width: 370px;
+            height: 170px;
+            background-color: rgb(9, 49, 82);
+        }
+        
+        .company {
+            color: gray;
+            padding-top: 40px;
+        }
+        
+        .jd {
+            color: gray;
+        }
+        
+        #experience {
+            margin-top: 25px;
+        }
+        
+        .designation {
+            width: 100%;
+        }
+        
+        #abilities {
+            background-color: rgb(250, 244, 244);
+            clear: both;
+            /* margin-top: 40px; */
+        }
+        
+        .center h1 {
+            margin: 0;
+            padding-top: 50px;
+            color: rgb(9, 49, 82);
+            text-transform: uppercase;
+            letter-spacing: 2px;
+        }
+        
+        .skillBox {
+            box-sizing: border-box;
+            width: 90%;
+            margin: 20px 0;
+        }
+        
+        .skillBox p {
+            color: rgb(9, 49, 82);
+            text-transform: uppercase;
+            margin: 0 0 10px;
+            padding: 0;
+            font-weight: bold;
+            letter-spacing: 1px;
+        }
+        
+        .skillBox p:nth-child(2) {
+            float: right;
+            position: relative;
+            top: -25px;
+        }
+        
+        .skill {
+            padding: 4px;
+            box-sizing: border-box;
+            border: 1px solid rgb(9, 49, 82);
+            border-radius: 2px;
+        }
+        
+        .skill_level {
+            background-color: gray;
+            width: 100%;
+            height: 10px;
+        }
+        
+        .skills {
+            width: 100%;
+        }
+        
+        .Active {
+            width: 63px;
+            height: 30px;
+            background-color: rgb(9, 49, 82);
+            color: white;
+            border-radius: 10%;
+            outline: none;
+            border: none;
+        }
+        
+        .btn_project {
+            width: 90px;
+            height: 35px;
+            background-color: rgb(9, 49, 82);
+            color: white;
+            margin: 2% 0 0 3%;
+            border-radius: 10%;
+            outline: none;
+            border: none;
+        }
+        
+        .gallary img {
+            width: 300px;
+            height: 200px;
+            border: 2px solid gray;
+            margin: 20px 0 0 20px;
+        }
+        
+        #contact {
+            margin-top: 50px;
+            width: 100%;
+            height: 100vh;
+            background-size: cover;
+            background-image: url(../img/contact-bg.jpg);
+            background-repeat: no-repeat;
+            background-position: left;
+        }
+        
+        #contact h1 {
+            text-align: right;
+            font-size: 40px;
+            color: white;
+            padding-top: 25px;
+            padding-right: 30px;
+        }
+        
+        .address {
+            float: right;
+            width: 550px;
+            height: 400px;
+            margin-top: 100px;
+            background-color: rgb(9, 49, 82);
+        }
+        
+        .line3 {
+            height: 5px;
+            width: 389px;
+            background-color: white;
+            margin-left: 132px;
+        }
+        
+        .p1 {
+            text-align: left;
+            margin-top: 30px;
+            margin-right: 30px;
+            font-size: 25px;
+            color: white;
+        }
+        
+        p1.p {
+            color: white;
+        }
+        
+        @media only screen and (max-width: 430px) {
+            nav {
+                width: 60%;
+                background-color: rgb(9, 49, 82);
+                position: fixed;
+                left: 0;
+                top: 0;
+                height: 100vh;
+                text-align: center;
+                transition: 5s;
+                display: none;
+            }
+            .content {
+                width: 100%;
+            }
+            .post {
+                padding: 0;
+            }
+            .about {
+                width: 100%;
+                color: rgb(9, 49, 82);
+                padding-top: 10px;
+            }
+            .about h2 {
+                text-align: center;
+            }
+            .details {
+                width: 100%;
+                padding: 8% 0 0 37%;
+                color: rgb(9, 49, 82);
+            }
+            .btn {
+                margin: 13px 0 0 76px;
+            }
+            #education {
+                background-color: rgb(250, 244, 244);
+                margin: 20px 0 0 40px;
+            }
+            .institute {
+                margin: auto;
+                width: 100%;
+                margin-top: -84px;
+            }
+            .board {
+                width: 100%;
+                margin-top: 94px;
+                display: flex;
+                flex-direction: column;
+            }
+            .img {
+                height: 100px;
+                width: 100px;
+                margin: auto;
+                margin: 8px 0 0 10px;
+                border-radius: 50%;
+            }
+            .info1 {
+                margin: 0;
+                width: 310px;
+                padding: 15px 30px 0 0;
+                background-color: rgb(9, 49, 82);
+            }
+            .kkv {
+                margin: auto;
+            }
+            #experience {
+                margin-top: 70px;
+            }
+            .address {
+                float: none;
+                margin-top: 100px;
+                background-color: rgb(9, 49, 82);
+            }
+            #contact h1 {
+                text-align: center;
+                font-size: 40px;
+                color: white;
+                padding-top: 25px;
+            }
+            .line3 {
+                height: 5px;
+                width: 389px;
+                background-color: white;
+                margin-left: 18px;
+            }
+            .p1 {
+                text-align: center;
+                margin-top: 30px;
+                font-size: 23px;
+                color: white;
+            }
+            .p1 p {
+                text-align: center;
+            }
+        }
+        
+        @media screen and (min-width: 430px) and (max-width: 768px) {
+            nav {
+                width: 25%;
+            }
+            .about p {
+                font-size: 15px;
+            }
+            .details {
+                padding-left: 24%;
+            }
+            .details p {
+                font-size: 15px;
+            }
+            .btn {
+                margin: 75px 0 0 -67px;
+            }
+            .institute {
+                margin: auto;
+            }
+            .board {
+                text-align: center;
+                margin-top: 119px;
+                position: relative;
+                top: -109px;
+            }
+            .kkv {
+                float: none;
+            }
+            .info1 {
+                margin: auto;
+            }
+        }
+        
+        @media screen and (min-width:768px) and (max-width: 1024px) {
+            .btn {
+                margin: 65px 0 0 -75px;
+            }
+            .info1 {
+                margin-left: 145px;
+            }
+        }
